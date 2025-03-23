@@ -1,2 +1,1 @@
-# Brainwave_matrix_intern
-author - kusum
+"# Brainwave_matrix_intern" 

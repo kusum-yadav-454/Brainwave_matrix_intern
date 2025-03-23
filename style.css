@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Corrected this line */
+    font-family: Arial, sans-serif; /* Added a fallback font */
+}
+
+body {
+    background-color: #f4f4f4; /* Light background for the body */
+    color: #333; /* Dark text color */
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111; /* Dark background for the navbar */
+    color: white;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Add some padding */
+}
+
+.logo {
+    background-image: url("amazon_logo.png"); /* Ensure this image is in the same directory */
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-right: 20px; /* Space between logo and nav links */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+.nav-links li {
+    margin: 0 15px; /* Space between links */
+}
+
+.nav-links a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px; /* Add padding for better click area */
+}
+
+.border {
+    border: 2px solid transparent; /* Initial border */
+}
+
+.border:hover {
+    border: 1.5px solid white; /* Change border color on hover */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white; /* White background for sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #0f1111; /* Dark background for footer */
+    color: white; /* White text color */
+}
